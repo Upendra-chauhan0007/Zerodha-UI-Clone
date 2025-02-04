@@ -1,0 +1,130 @@
+@media screen and (max-width: 600px) {
+  header {
+    padding-inline: 20px;
+  }
+
+  nav {
+    width: 100%;
+    padding-inline: 20px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  #burger {
+    display: block;
+  }
+
+  main img {
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+    margin-block: 40px;
+  }
+
+  section {
+    flex-direction: column;
+    width: 100%;
+    padding-inline: 30px;
+    text-align: center;
+  }
+
+  .right > img {
+    width: 300px;
+    height: 300px;
+  }
+
+  #clients img {
+    width: 70%;
+  }
+
+  #random-section {
+    width: 100%;
+    padding-inline: 20px;
+    flex-wrap: wrap;
+  }
+
+  .oneside {
+    width: 80%;
+  }
+
+  .anotherside {
+    width: 80%;
+  }
+
+  .anotherside .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  header {
+    padding-inline: 20px;
+  }
+
+  nav {
+    width: 100%;
+    padding-inline: 20px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  #burger {
+    display: block;
+  }
+
+  main img {
+    width: 600px;
+    height: 200px;
+    object-fit: contain;
+    margin-block: 40px;
+  }
+
+  #main-cont h2 {
+    font-size: 40px;
+    margin-bottom: 13px;
+  }
+
+  #main-cont p {
+    font-size: 18px;
+  }
+
+  #main-cont button {
+    font-size: 18px;
+  }
+
+  section {
+    flex-direction: column;
+    width: 100%;
+    padding-inline: 30px;
+    text-align: center;
+  }
+
+  .right > img {
+    width: 400px;
+    height: 400px;
+  }
+
+  #clients img {
+    width: 50%;
+  }
+
+  #random-section {
+    width: 100%;
+    padding-inline: 20px;
+    flex-wrap: wrap;
+  }
+
+  .oneside {
+    width: 40%;
+  }
+
+  .anotherside {
+    width: 55%;
+  }
+}
